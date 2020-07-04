@@ -17,6 +17,6 @@ class HomeControllerIntegrationTest {
                 .get("/")
                 .then()
                 .statusCode(OK.value())
-                .body(Is.is("1.0"));
+                .body(Is.is("App Version: 1.0"));
     }
 }

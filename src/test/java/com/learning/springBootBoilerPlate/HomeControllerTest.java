@@ -19,6 +19,6 @@ class HomeControllerTest {
         ResponseEntity actual = homeController.index();
 
         assertThat(actual.getStatusCode().value(), Is.is(OK.value()));
-        assertThat(actual.getBody(), Is.is("1.0"));
+        assertThat(actual.getBody(), Is.is("App Version: 1.0"));
     }
 }
