@@ -2,14 +2,12 @@ package com.learning.springBootBoilerPlate;
 
 import org.hamcrest.core.Is;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 import org.springframework.http.ResponseEntity;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.springframework.http.HttpStatus.OK;
 
 class HomeControllerTest {
-    @Mock
     HomeController homeController;
 
     @Test
